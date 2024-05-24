@@ -11,7 +11,7 @@ def convert_coordinate(coordinate):
 
 
 def create_record(azara_record, rui_record):
-    if (azara_record[1])==rui_record[1][0]+rui_record[1][1]
+    if (azara_record[1])==rui_record[1][0]+rui_record[1][1]:
         return azara_record+rui_record
     else:
         return "not a match"
